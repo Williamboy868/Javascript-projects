@@ -50,9 +50,9 @@ function HomeScreen() {
   return (    
     <SafeAreaView className="h-full bg-slate-100  overflow-auto " >
     <View className="mt-6">  
-      <View className="flex-row  items-stretch justify-between mb-4 p-2" >
+      <View className="flex-row   justify-between mb-4 p-2 items-center" >
       {/**first component begins*/}
-        <View className="w-14 h-14  rounded">
+        <View className="w-10 h-10  rounded">
           <Image
            source={require("./assets/shit.png")
            }
